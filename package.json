@@ -14,6 +14,7 @@
     "@types/react-dom": "^18.2.18",
     "antd": "^5.12.4",
     "axios": "^1.6.2",
+    "craco-alias": "^3.0.1",
     "cross-env": "^7.0.3",
     "dotenv": "^16.3.1",
     "mobx": "^6.12.0",
@@ -27,7 +28,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "set PORT=3001 && react-scripts start",
+    "start": "set PORT=3001 && craco start",
     "build": "cross-env NODE_ENV=test craco build",
     "build:dev": "cross-env NODE_ENV=production craco build",
     "build:test": "cross-env NODE_ENV=production craco build",

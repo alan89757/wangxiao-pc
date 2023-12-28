@@ -1,12 +1,12 @@
 import React from "react";
 import { HashRouter, Route, Routes } from "react-router-dom";
-import Home from "../pages/Home";
-import CourseDetail from "../pages/CourseDetail";
-import AllInformation from "../pages/AllInformation";
-import PersonalCenter from "../pages/PersonalCenter";
-import InfoDetail from "../pages/InfoDetail";
-import AllCourse from "../pages/AllCourse/allCourse";
-import MainLayout from "../pages/Layout/index";
+import Home from "@/pages/Home";
+import CourseDetail from "@/pages/CourseDetail";
+import AllInformation from "@/pages/AllInformation";
+import PersonalCenter from "@/pages/PersonalCenter";
+import InfoDetail from "@/pages/InfoDetail";
+import AllCourse from "@/pages/AllCourse/allCourse";
+import MainLayout from "@/pages/Layout/index";
 
 function Router() {
   return (

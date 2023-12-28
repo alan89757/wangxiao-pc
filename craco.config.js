@@ -1,7 +1,16 @@
+const CracoAlias = require("craco-alias");
+
 module.exports = {
-  webpack: {
-    alias: {
-      '@': require('path').resolve(__dirname, 'src')
+  plugins: [
+    {
+      plugin: CracoAlias,
+      options: {
+        source: "tsconfig",
+        tsConfigPath: "./tsconfig.json", 
+        aliases: {
+          "@": "./src"
+        }
+      }
     }
-  }
-}
+  ]
+};
