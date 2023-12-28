@@ -1,0 +1,89 @@
+.coursedetailOutwrap {
+  .pagination-content {
+    font-size: 12px;
+    color: #666666;
+    padding-bottom: 30px;
+    width: 100%;
+  }
+
+  .pagination-content > .pager {
+    display: block;
+    position: relative;
+    float: right;
+  }
+
+  .pagination-content ul li {
+    list-style: none;
+    margin: 0 3px;
+    min-width: 37px;
+    display: inline-block;
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+  }
+
+  .pagination-content ul li.next,
+  .pagination-content ul li.prev {
+    width: auto;
+  }
+
+  .pagination-content ul li.disable a {
+    color: #848c94;
+  }
+
+  .pagination-content ul li.text {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 0px;
+    color: black;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+  }
+
+  .pagination-content ul li.text input.go {
+    width: 25px;
+  }
+
+  .pagination-content ul li.text select.go {
+    padding: 2px 2px;
+  }
+
+  .pagination-content ul li.text span.go {
+    color: #848c94;
+    margin-left: 2px;
+    cursor: pointer;
+    background-color: silver;
+    padding: 4px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+  }
+
+  .pagination-content ul li a {
+    display: block;
+    padding: 0 7px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    color: black;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+  }
+
+  .pagination-content ul li a:hover,
+  .pagination-content ul li.active a {
+    background-color: #4085ed;
+    color: #fff;
+  }
+
+  .pagination-content .text {
+    display: inline-block;
+    height: 30px;
+    position: relative;
+    box-sizing: border-box;
+    line-height: 30px;
+  }
+}

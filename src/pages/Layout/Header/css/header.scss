@@ -1,0 +1,149 @@
+.header-outwrap {
+  .header-search {
+    margin-left: 0px;
+  }
+  .header-content {
+    height: 98px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .search-wrap {
+    display: flex;
+    width: 649px;
+    margin-top: 0;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .search-wrap .search-btn {
+    padding: 0;
+  }
+  .header-logo {
+    width: 106px;
+    height: 34px;
+    /* background: pink; */
+    // background: url("../images/logo.png") no-repeat;
+    background: url("../images/logo.svg") no-repeat;
+    // background: url("../images/logo2.png") no-repeat;
+    background-size: cover;
+    margin-top: 0;
+  }
+  .search-wrap .header-text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    height: 20px;
+    line-height: 20px;
+    // margin-left: 90px;
+    // margin-top: 8px;
+    cursor: pointer;
+  }
+  .header-input {
+    margin-left: 90px;
+    width: 282px;
+    height: 36px;
+    padding-right: 0px;
+  }
+  .search-search-wrap {
+    display: flex;
+    justify-content: center;
+  }
+  .search-btn {
+    width: 52px;
+    padding-right: 0px;
+    background-color: #e5e6eb;
+  }
+  .search-btn span {
+    /* display: inline-block; */
+    width: 20px;
+    height: 20px;
+    /* background-color: red; */
+  }
+  .header-right {
+    position: relative;
+    margin: 0;
+    width: 317px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    .phone-text1 {
+      margin-left: 10px;
+    }
+  }
+  .header-phone {
+    width: 86px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .phone-icon {
+    width: 16px;
+    height: 20px;
+    margin: 1px 3px;
+    background: pink;
+  }
+  .phone-text {
+    width: 56px;
+    height: 20px;
+    margin-left: 8px;
+  }
+  .header-login {
+    display: flex;
+    margin-left: 90px;
+    width: 102px;
+    height: 22px;
+    line-height: 22px;
+  }
+  .login-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .login-icon {
+    width: 22px;
+    height: 22px;
+    background-color: blue;
+  }
+  .login-btn {
+    margin: 0 6px;
+  }
+  .register-btn {
+    margin-left: 6px;
+    cursor: pointer;
+  }
+  .header-adylogin {
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
+    width: 141px;
+    height: 36px;
+  }
+  .header-adylogin .header-user {
+    display: flex;
+    align-items: center;
+  }
+  .header-adylogin .header-user .user-avatar {
+    width: 36px;
+    height: 36px;
+  }
+  .header-adylogin .header-user .user-name {
+    color: #4d5055;
+    font-family: "PingFang SC";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0 4px;
+  }
+  .header-adylogin .down-icon {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+.header-modal-wrap .ant-modal-content {
+  width: 404px;
+  height: 460px;
+  padding: 60px 28px 50px 28px;
+}

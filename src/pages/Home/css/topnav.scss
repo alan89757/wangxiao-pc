@@ -1,0 +1,430 @@
+.topnav-wrap {
+  height: 392px;
+  /* background: #4085ed; */
+  background: url("../images/backdrop.png") !important;
+  display: flex;
+  position: relative;
+}
+.topnav-wrap .topnav-list {
+  display: flex;
+  // background: #ffffff;
+  // background-color: red;
+  border-radius: 12px;
+  // overflow: hidden;
+  // width: 936px;
+  margin: 0 auto;
+  height: 384px;
+  // margin-left: 360px;
+  margin-top: 40px;
+  // box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+  // box-shadow: 0 4px 28px #3c70d11f;
+}
+.topnav-wrap .topnav-list .course-classify {
+  position: relative;
+  width: 296px;
+  line-height: 40px;
+  display: inline-block;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 12px 0px 0px 12px;
+  // overflow: hidden;
+}
+.topnav-wrap .topnav-list .course-classify .classify-list {
+  padding-left: 16px;
+  padding-top: 16px;
+  padding-bottom: 9px;
+  // background: rgba(255, 255, 255, 0.955);
+  background-color: #ffffff;
+  /* box-shadow: 0 0 10px 3px rgba(175, 176, 181, 0.2); */
+  // border-radius: 2px 0 0 0 2px 2px 2px;
+  border-radius: 12px 0px 0px 12px;
+  z-index: 6;
+  width: 298px;
+  height: 384px;
+}
+.topnav-wrap .topnav-list .course-classify .classify-list .classify-item {
+  padding: 12px 26px 12px 12px;
+  width: 280px;
+  height: 70px;
+}
+.topnav-wrap
+  .topnav-list
+  .course-classify
+  .classify-list
+  .classify-item
+  .classify-top {
+  height: 22px;
+}
+.topnav-wrap
+  .topnav-list
+  .course-classify
+  .classify-list
+  .classify-item
+  .classify-top
+  .classify-title {
+  color: #344049;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  cursor: pointer;
+}
+.topnav-wrap
+  .topnav-list
+  .course-classify
+  .classify-list
+  .classify-item
+  .classify-top
+  .iconfont {
+  font-size: 10px;
+  line-height: 21px;
+  color: #999;
+}
+.topnav-wrap
+  .topnav-list
+  .course-classify
+  .classify-list
+  .classify-item
+  .hot-exams {
+  padding-top: 6px;
+  font-size: 12px;
+}
+.topnav-wrap
+  .topnav-list
+  .course-classify
+  .classify-list
+  .classify-item
+  .hot-exams
+  .hot-exam {
+  float: left;
+  line-height: 1;
+  margin-right: 15px;
+  color: #999;
+  font-size: 14px;
+  cursor: pointer;
+}
+.topnav-wrap
+  .topnav-list
+  .course-classify
+  .classify-list
+  .classify-item
+  .hot-exams
+  .hot-exam:hover {
+  color: #4085ed;
+}
+.topnav-wrap
+  .topnav-list
+  .course-classify
+  .classify-list
+  .classify-item
+  .exam-list {
+  display: none;
+  /* display: flex; */
+  position: absolute;
+  left: 280px;
+  top: 0;
+  width: 656px;
+  background: #f2f5ff;
+  // box-shadow: 0 0 10px 3px rgba(175, 176, 181, 0.2);
+  padding: 0px 30px;
+  height: 384px;
+  overflow: auto;
+}
+.topnav-wrap
+  .topnav-list
+  .course-classify
+  .classify-list
+  .classify-item
+  .exam-list
+  .recommend-course {
+  cursor: pointer;
+  display: inline-block;
+  height: 32px;
+  line-height: 32px;
+  font-size: 14px;
+  color: #4085ed;
+  padding: 0 10px;
+  background: rgba(64, 133, 237, 0.05);
+  border: 1px solid #4085ed;
+}
+.topnav-wrap
+  .topnav-list
+  .course-classify
+  .classify-list
+  .classify-item
+  .exam-list
+  .exam-items {
+  /* margin-left: 28px; */
+  margin-top: 27px;
+  display: flex;
+}
+.topnav-wrap
+  .topnav-list
+  .course-classify
+  .classify-list
+  .classify-item
+  .exam-list
+  .exam-items
+  .exam-item {
+  float: left;
+  position: relative;
+  color: #666;
+  font-size: 12px;
+  line-height: 1;
+  margin-top: 5px;
+  margin-bottom: 8px;
+  margin-right: 88px;
+  cursor: pointer;
+  // width: 140px;
+  // background-color: skyblue;
+}
+.topnav-wrap
+  .topnav-list
+  .course-classify
+  .classify-list
+  .classify-item
+  .exam-list
+  .exam-items
+  .exam-item
+  span {
+  float: left;
+}
+.topnav-wrap
+  .topnav-list
+  .course-classify
+  .classify-list
+  .classify-item
+  .exam-list
+  .exam-items
+  .exam-item
+  .iconHOT {
+  float: left;
+  color: #ff6600;
+  font-size: 10px;
+  margin-left: 6px;
+  margin-top: -12px;
+}
+.topnav-wrap
+  .topnav-list
+  .course-classify
+  .classify-list
+  .classify-item
+  .exam-list
+  .exam-items
+  .exam-item:hover {
+  color: #4085ed;
+}
+.topnav-wrap
+  .topnav-list
+  .course-classify
+  .classify-list
+  .classify-item
+  .exam-list
+  .exam-items
+  .exam-item-active {
+  color: #4085ed;
+}
+.topnav-wrap .topnav-list .course-classify .classify-list .classify-item:hover {
+  margin-left: -5px;
+  background: #f2f5ff;
+  border-left: 5px solid #4085ed;
+}
+.topnav-wrap
+  .topnav-list
+  .course-classify
+  .classify-list
+  .classify-item:hover
+  .exam-list {
+  display: block;
+}
+.topnav-wrap .topnav-list .course-classify:hover .classify-list {
+  display: block;
+}
+.exam-title {
+  color: #333333;
+  font-family: "PingFang SC";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 22.4px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.exam-title2 {
+  display: flex;
+  width: 528px;
+  flex-wrap: wrap;
+  margin-left: 28px;
+  // background-color: pink;
+}
+.topnav-wrap .topnav-list .nav-item {
+  display: inline-block;
+  // margin-right: 56px;
+  line-height: 40px;
+  font-size: 14px;
+  // color: #fff;
+}
+.advertisement {
+  width: 646px;
+  height: 384px;
+  // margin: 16px;
+  background: #ffffff;
+  border-radius: 0 12px 12px 0;
+  .advertisementImg {
+    background: url("../images/frame.png");
+    background-size: 100% 100%;
+    width: 614px;
+    height: 352px;
+    margin: 16px;
+  }
+}
+.login-welcome {
+  // position: absolute;
+  // top: 40px;
+  // right: 360px;
+  z-index: 2;
+  width: 240px;
+  height: 384px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 46px 16px 40px 16px;
+  // box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 28px #3c70d11f;
+  margin-left: 24px;
+}
+.welcome-title {
+  display: flex;
+  margin-bottom: 29px;
+}
+.welcome-title .img {
+  width: 50px;
+  height: 50px;
+  /* background-color: pink; */
+  background: url("../images/defaultavatar.png");
+  margin-left: 24px;
+}
+.welcome-title .welcome-text {
+  margin-left: 12px;
+  color: #4d5055;
+  font-family: "PingFang SC";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.welcome-text2 {
+  display: flex;
+}
+.welcome-img {
+  width: 208px;
+  height: 140px;
+  /* background-color: pink; */
+  background: url("../images/frame02.png");
+  margin-bottom: 32px;
+}
+.login-welcome button {
+  width: 208px;
+  height: 44px;
+  border: none;
+  border-radius: 36px;
+  background: linear-gradient(270deg, #2080f7 0%, #4f9dff 100%);
+  color: #ffffff;
+  cursor: pointer;
+}
+.login-already {
+  // position: absolute;
+  // top: 40px;
+  // right: 360px;
+  // z-index: 2;
+  width: 240px;
+  height: 384px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #d4e8ff;
+  // box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 28px #3c70d11f;
+  margin-left: 24px;
+}
+.already-title {
+  display: flex;
+  /* margin-bottom: 24px; */
+  padding: 46px 16px 24px 16px;
+}
+.already-title img {
+  width: 50px;
+  height: 50px;
+  /* background-color: pink; */
+  /* background: url("../images/avatar.png"); */
+  margin-left: 24px;
+}
+.already-title .already-text {
+  margin-left: 12px;
+  font-family: "PingFang SC";
+  font-style: normal;
+  font-weight: 500;
+}
+.already-title .already-text .text-name {
+  color: #333333;
+  font-size: 19px;
+  line-height: 27px;
+}
+.already-title .already-text .text-id {
+  color: #4e5969;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.already-text2 {
+  display: flex;
+  // padding-left: 22px;
+  // padding-bottom: 32px;
+  height: 53px;
+  align-items: center;
+  justify-content: center;
+  color: #4e5969;
+  background: #d4e8ff;
+  font-family: "PingFang SC";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.already-text2 .my-course {
+  margin-right: 25px;
+  cursor: pointer;
+}
+.already-text2 .my-order {
+  margin-left: 25px;
+  cursor: pointer;
+}
+.already-tostudy {
+  width: 240px;
+  height: 220px;
+  border-radius: 12px;
+  padding: 16px;
+  background: #ffffff;
+}
+.already-tostudy .already-img {
+  width: 208px;
+  height: 120px;
+  border-radius: 8px;
+  /* background: skyblue; */
+  background: url("../images/frame03.png");
+}
+.already-tostudy button {
+  width: 208px;
+  height: 44px;
+  border: none;
+  border-radius: 36px;
+  background: linear-gradient(270deg, #2080f7 0%, #4f9dff 100%);
+  color: #ffffff;
+  margin: 16px auto;
+  font-family: "PingFang SC";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  cursor: pointer;
+}
+.top-center-nav {
+  display: flex;
+  box-shadow: 0 4px 28px  #3c70d11f;
+  border-radius: 12px;
+}

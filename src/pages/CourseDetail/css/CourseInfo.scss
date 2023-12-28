@@ -1,0 +1,330 @@
+.courseinfoOutwrap {
+  .course-info {
+    width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px 20px 30px;
+    border-radius: 8px;
+  }
+
+  .course-lf {
+    width: 560px;
+    position: relative;
+  }
+
+  .course-video {
+    height: 314px;
+    background: #000;
+    width: 556px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+
+  .course-img-pick {
+    /* background-color: #07c160; */
+    height: 45px;
+    margin-top: 16px;
+    display: flex;
+    /* width: 200px; */
+  }
+
+  .pick-img-left {
+    color: #9fa1a4;
+    line-height: 45px;
+    margin-left: 0px;
+    margin-right: 8px;
+    cursor: pointer;
+    font-size: 22px;
+  }
+
+  .pick-img-content {
+    display: flex;
+  }
+
+  .pick-img-right {
+    color: #9fa1a4;
+    line-height: 45px;
+    margin-left: 26px;
+    cursor: pointer;
+    font-size: 22px;
+  }
+
+  .pick-img-one {
+    margin-left: 16px;
+    width: 80px;
+    height: 44px;
+    background: #f5f5f5;
+    cursor: pointer;
+  }
+
+  .pick-img-one-active {
+    margin-left: 16px;
+    border: 1px solid #fe4e47;
+    width: 80px;
+    height: 43px;
+    cursor: pointer;
+  }
+
+  .price-box {
+    width: 1200px;
+    height: 98px;
+    margin: 24px auto;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+  }
+
+  .price-box-left {
+    margin-left: 60px;
+    margin-top: 30px;
+    display: flex;
+  }
+
+  .price-icon {
+    font-size: 16px;
+  }
+
+  .price-real {
+    color: #fe4e47;
+    font-size: 32px;
+    font-weight: 600;
+    margin-right: 12px;
+  }
+
+  .price-old {
+    color: #9fa1a4;
+    font-size: 14px;
+    margin-top: 17px;
+    text-decoration: line-through;
+  }
+
+  .price-box-right {
+    margin-top: 24px;
+    margin-right: 60px;
+    display: flex;
+  }
+
+  .interest-box {
+    color: #9fa1a4;
+    font-size: 14px;
+    margin-top: 24px;
+    margin-right: 36px;
+  }
+
+  .buy-btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 4px;
+    background: #fe4e47;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+  }
+
+  .limited-time-group {
+    background: url("../images/miaosha.png") no-repeat;
+    /* padding: 0 9.7px 0 11px; */
+    color: #fff;
+    font-size: 0;
+    height: 66px;
+    line-height: 66px;
+    border-radius: 12px 12px 12px 12px;
+    width: 580px;
+    overflow: hidden;
+  }
+
+  .limited-time-group-no-coupon {
+    background: url("../images/miaosha.png") no-repeat;
+    /* padding: 0 9.7px 0 11px; */
+    color: #fff;
+    font-size: 0;
+    height: 56px;
+    line-height: 56px;
+    border-radius: 12px 12px 12px 12px;
+    width: 580px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+
+  .time-box {
+    display: flex;
+    margin-top: 15px;
+    margin-right: 20px;
+  }
+
+  .time {
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 8px;
+    background: #323949;
+    width: 27px;
+    height: 27px;
+    /* margin-top: 15px; */
+    line-height: 27px;
+    text-align: center;
+  }
+
+  .time-icon {
+    width: 16px;
+    height: 19px;
+    color: #323949;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin-top: 3px;
+  }
+
+  .course-info .course-right .price-group {
+    /* height: 50px; */
+    padding: 16px 20px;
+    background: #f7f8fb;
+    border-radius: 12px;
+    position: relative;
+  }
+
+  .price-group-top {
+    margin-top: -10px;
+  }
+
+  .coupon-one {
+    /* background-color: yellow; */
+    display: flex;
+  }
+
+  .coupon-one-top {
+    margin-top: 12px;
+  }
+
+  .coupon-one-type {
+    width: 44px;
+    height: 17px;
+    border: 1px solid #fe4e47;
+    text-align: center;
+    line-height: 17px;
+    font-size: 12px;
+    color: #fe4e47;
+    /* padding-left: 4px;
+       padding-right: 4px; */
+  }
+
+  .coupon-one-title {
+    color: #4e5969;
+    font-size: 12px;
+    height: 17px;
+    line-height: 19px;
+    margin-left: 16px;
+    /* background: red; */
+  }
+
+  .coupon-one-btn {
+    color: #3c80ef;
+    font-size: 12px;
+    height: 17px;
+    line-height: 19px;
+    margin-left: 16px;
+    cursor: pointer;
+  }
+
+  .coupon-one-btn-disabled {
+    color: #9fa1a4;
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  .course-info .course-right .open-subject-group {
+    box-shadow: 0 0 10px 3px rgba(175, 176, 181, 0.2);
+    border-radius: 5px;
+    width: 580px;
+    z-index: 1;
+    background: #fff;
+  }
+
+  /* .course-info .course-right .course-info-item .item-lf {
+       color: #afb0b5;
+       font-size: 12px;
+       float: left;
+   } */
+
+  .sku-level {
+    padding: 20px 10px 0;
+  }
+
+  .sku-name {
+    /* display: inline-block; */
+    /* width: 69px; */
+    text-align: left;
+    color: #4e5969;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    /* line-height: 44px; */
+  }
+
+  .btn-list {
+    cursor: pointer;
+  }
+
+  .course-info .course-right .course-info-item .item-lf .btn-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    /* background: red; */
+  }
+
+  .course-info .course-right .course-info-item .item-lf .btn-list > span {
+    display: inline-block;
+    color: #344049;
+    font-size: 12px;
+    height: 34px;
+    padding: 0 24px;
+    line-height: 34px;
+    background: #f7f8fa;
+    border: 1px solid #dbdddf;
+    border-radius: 4px;
+    position: relative;
+  }
+
+  .course-info
+    .course-right
+    .course-info-item
+    .item-lf
+    .btn-list
+    > span:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  .course-info
+    .course-right
+    .course-info-item
+    .item-lf
+    .btn-list
+    > span.active {
+    background: rgba(239, 69, 69, 0.05);
+    border: 1px solid #ef4545;
+    color: #ef4545;
+  }
+
+  /* .course-info .course-right .course-info-item .item-lf .btn-list>span:after { */
+  .miaosha:after {
+    content: "秒杀";
+    display: inline-block;
+    width: 36px;
+    height: 16px;
+    text-align: center;
+    /* padding-right: 2px; */
+    background: linear-gradient(90deg, #fe8e2a 0%, #fd622c 100%);
+    border-radius: 8px 4px 0 8px;
+    color: #ffffff;
+    font-family: "PingFang SC";
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 16px;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -0.5px;
+    right: -0.5px;
+  }
+}

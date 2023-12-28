@@ -1,0 +1,45 @@
+.card {
+    width: 306px;
+    min-height: 204px;
+    padding: 20px 16px;
+    border: 1px solid #E5E6EB;
+}
+
+.card-top {
+    margin-top: 32px;
+}
+
+.card-level-1 {
+    display: flex;
+    justify-content: space-between;
+    /* background: seagreen; */
+}
+
+.card-name {
+    color: #e8482d;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 11.5px;
+}
+
+.card-line {
+    width: 27px;
+    height: 4px;
+    border-radius: 2px;
+    background: #E8482D;
+    margin-top: 12px;
+}
+
+.teacher-img {
+    width: 64px;
+    height: 64px;
+    border-radius: 64px;
+    border: 1px solid #F7F7F7;
+}
+
+.card-level-2 {
+    margin-top: 20px;
+    color: #4e5969;
+    font-size: 14px;
+    line-height: 21px;
+}

@@ -1,0 +1,214 @@
+.allcourse-box {
+  background-color: #fff;
+
+  .projectTab-box {
+    height: 64px;
+    background: #f6f6f8ff;
+
+    .projectTab-content {
+      width: 1200px;
+
+      line-height: 28px;
+      margin: 0 auto;
+      display: flex;
+      .fenlei {
+        color: #333333ff;
+        font-family: "PingFang SC";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        height: 28px;
+        line-height: 28px;
+        margin-right: 24px;
+      }
+      .projectItem > span {
+        color: #4d5055ff;
+        font-family: "PingFang SC";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0 24px;
+      }
+      .projectItem .activeItem {
+        border-radius: 14px;
+        background: #dfebfb;
+        padding: 4px 16px;
+        font-size: 14px;
+        color: #3c80efff;
+        margin: 0 24px;
+      }
+    }
+  }
+
+  .allcourse-content {
+    width: 1225px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding-top: 40px;
+    .allcourse-all {
+      // width: 1220px;
+      width: 100%;
+      background: #fff;
+      margin: 0 auto;
+    }
+    .allcourse-top {
+      width: 1200px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 24px;
+      .allcourse-name {
+        color: #333333;
+        font-family: "PingFang SC";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+      }
+      .allcourse-total {
+        color: #333333;
+        font-family: "PingFang SC";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        margin-right:30px;
+      }
+    }
+
+
+    .allcourse-list {
+      width: 100%;
+      height: 1110px;
+      
+      // display: flex;
+      // justify-content: flex-start;
+
+      // flex-wrap: wrap;
+
+      .allcourse-item {
+        width: 282px;
+        margin-right: 24px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #fff;
+        box-shadow: 0 4px 28px 0 #3c70d11f;
+        margin-bottom: 24px;
+        float: left;
+        cursor: pointer;
+
+        .item-imgs {
+          width: 100%;
+          height: 158px;
+          border-top-left-radius: 8px;
+          border-top-right-radius: 8px;
+          position: relative;
+          // border-radius: 8px;
+          img {
+            width: 100%;
+            height: 100%;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            // border-radius: 8px;
+          }
+          .sellingnumber {
+            position: absolute;
+            width: 102px;
+            border-radius: 12px 0 0 12px;
+            background: #ff6d1b;
+            font-size: 8px;
+            text-align: center;
+            height: 20px;
+            line-height: 20px;
+            color: #fff;
+            right: 0;
+            bottom: 0;
+          }
+        }
+        .bottom-box {
+          padding: 0px 16px 16px 20px;
+          height: 192px;
+          width: 100%;
+          background: #fff;
+          border-bottom-left-radius: 8px;
+          border-bottom-right-radius: 8px;
+          display: flex;
+          margin-top: 18px;
+          flex-direction: column;
+          justify-content: space-between;
+          .item-name {
+            color: #333333;
+            font-family: "PingFang SC";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+          }
+          .item-sellpoint {
+            color: #9fa1a4;
+            font-family: "PingFang SC";
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+          }
+        }
+        .item-bottom {
+          width: 100%;
+          height: 52px;
+          display: flex;
+          justify-content: space-between;
+          .item-teacherList {
+            display: flex;
+            justify-content: space-between;
+            flex: 1;
+            .teacher-item {
+              width: 30px;
+              img {
+                width: 30px;
+                height: 30px;
+                border-radius: 15px;
+              }
+              p {
+                color: #9fa1a4;
+                text-align: center;
+                font-family: "PingFang SC";
+                font-size: 10px;
+                font-style: normal;
+                font-weight: 400;
+              }
+            }
+          }
+          .item-pricebox {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            text-align: right;
+          }
+          .item-lineprice {
+            color: #999eb5;
+            font-family: "PingFang SC";
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 12px;
+
+            text-decoration: line-through;
+          }
+          .item-realPrice {
+            color: #fe4e47;
+            text-align: right;
+            font-family: "PingFang SC";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 16px;
+          }
+        }
+      }
+    }
+    .pagination-box {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 100px;
+    }
+  }
+}

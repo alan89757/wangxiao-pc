@@ -1,0 +1,59 @@
+.information-content-outwrap {
+  background: #f5f6f8;
+  padding-bottom: 60px;
+  .informationBox {
+    width: 1200px;
+    background: linear-gradient(272deg, #c3eaff -3.98%, #e5f0ff 99.85%);
+    height: 566px;
+    border-radius: 16px;
+    margin: 0 auto;
+    padding: 20px 16px 16px 16px;
+  }
+  .info-top {
+    display: flex;
+    height: 34px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+  }
+  
+  .info-top .info-title {
+    color: #333333;
+    font-family: "PingFang SC";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .info-content {
+    background: #fff;
+    border-radius: 12px;
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .course-tab-list {
+    width: 1200px;
+    height: 54px;
+    line-height: 54px;
+    padding: 0 20px;
+    /* overflow-x: hidden auto;
+    white-space: nowrap;
+    overflow-y: hidden; */
+  }
+  .course-catalog {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #9fa1a4;
+    padding: 0 20px;
+    text-align: center;
+    display: inline-block;
+    white-space: nowrap;
+  }
+  .active {
+    color: #3c80ef;
+  }
+  footer {
+    margin-top: 60px;
+  }
+  
+}

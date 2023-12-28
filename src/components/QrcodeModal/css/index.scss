@@ -1,0 +1,13 @@
+.qrcode-pop-wrap {
+  .ant-modal-content {
+    padding: 0;
+  }
+  .qrcode-content-wrap {
+    position: relative;
+    .qr-image {
+      position: absolute;
+      right: 118px;
+      bottom: 93px;
+    }
+  }
+}

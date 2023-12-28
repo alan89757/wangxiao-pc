@@ -1,0 +1,19 @@
+.bread-box {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  color: #9fa1a4;
+  font-size: 14px;
+}
+.bread-one {
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.bread-one-text {
+  cursor: pointer;
+}
+.bread-one-icon {
+  margin-left: 12px;
+  margin-right: 12px;
+}

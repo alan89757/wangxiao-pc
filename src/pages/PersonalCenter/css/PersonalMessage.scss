@@ -1,0 +1,40 @@
+.personal-message-container {
+  color: #323949;
+  font-family: "PingFang SC";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+
+  .message-title {
+    color: #333333;
+    font-size: 16px;
+    line-height: 22.4px;
+    margin-bottom: 20px;
+    margin-left: 41px;
+  }
+
+  .message-content {
+    width: 1000px;
+    height: 550px;
+    background: #FFFFFF;
+    padding: 20px 40px;
+  }
+
+  .message-content .message-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 920px;
+    height: 60px;
+    padding: 0 16px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #F2F3F5;
+  }
+
+  .message-content .message-item img {
+    width: 40px;
+    height: 40px;
+  }
+
+}

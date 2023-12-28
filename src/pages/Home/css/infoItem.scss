@@ -1,0 +1,61 @@
+.infoItem {
+  display: flex;
+  background: #fff;
+  padding: 16px 20px;
+  /* align-items: center; */
+  justify-content: flex-start;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border-bottom: 1px solid #dfdfe0;;
+  border-radius: 0;
+  
+}
+.leftImg {
+  width: 99px;
+  height: 74px;
+  border-radius: 4px;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+.infoItem .coverImg {
+  height: 100%;
+  max-width: 99px;
+  border-radius: 4px;
+}
+.rightContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 6px 0px;
+}
+.title {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #333333;
+}
+.publishTime {
+  color: #4e5969;
+  font-family: "PingFang SC";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  float: right;
+}
+.readingAmount {
+  margin-left: 40px;
+}
+.details {
+  width: 1017px;
+  color: #9fa1a4;
+  font-family: "PingFang SC";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.icon-style{
+margin-right: 4px;
+}
